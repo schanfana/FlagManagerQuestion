@@ -1,3 +1,4 @@
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class FlagManager {
     private boolean a;
@@ -15,8 +16,7 @@ public class FlagManager {
     public boolean areAllFlagsOff() {
         boolean result = false;
         // TODO
-
-        return result;
+        throw new NotImplementedException();
     }
 
 }
