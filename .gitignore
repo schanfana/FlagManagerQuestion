@@ -33,7 +33,6 @@ hs_err_pid*
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.zip
@@ -69,7 +68,6 @@ gradle-app.setting
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.zip
@@ -80,3 +78,4 @@ gradle-app.setting
 hs_err_pid*
 
 .idea/
+*.iml
