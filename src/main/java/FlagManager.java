@@ -14,9 +14,7 @@ public class FlagManager {
     }
 
     public boolean areAllFlagsOff() {
-        boolean result = false;
-        // TODO
-        throw new NotImplementedException();
+        return !(this.a || this.b || this.c || this.d);
     }
 
 }
